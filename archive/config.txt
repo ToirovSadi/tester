@@ -1,0 +1,40 @@
+target_program=programs/main.cpp
+main_program=programs/naive.cpp
+test_generator=test_generator.cpp
+test_template=test_template.cpp
+
+// optimizer checking by creating new threads
+optimize=false
+
+// generated_code is the file where the generated code will be saved
+generated_code=generated_code.cpp
+
+// time_limit is the maximum time that the program will run (in seconds)
+time_limit=3
+
+// test_count=-1 means that it will run forever
+test_count=5000
+
+// save_to_file=true means it will save test as files
+save_to_file=true
+
+// test_dir is the directory where all the tests will be saved
+test_dir=tests
+
+// save_only_failed=true means it will save only failed tests
+save_only_failed=true
+
+// total_saved_tests is the number of tests that will be saved
+total_saved_tests=10
+
+// print_interval is the interval at which the test results will be printed (in seconds)
+print_interval=3
+
+// check all programs before runnning generator
+check_all_programs=true
+
+// set the time and memory limit
+// time_limit=3 means 3 seconds
+// memory_limit=256 means 256 MB
+time_limit=3
+memory_limit=256
